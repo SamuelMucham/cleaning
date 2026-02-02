@@ -1,50 +1,54 @@
+const data = [
   {
     id: "1",
-    nome: "qualquer",
+    name: "Rolex GMT-Master II",
     imagem: require("@/assets/images/r1.avif"),
   },
-    {
+  {
     id: "2",
-    nome: "qualquer",
+    name: "Rolex Daytona",
     imagem: require("@/assets/images/r2.avif"),
   },
-    {
+  {
     id: "3",
-    nome: "qualquer",
+    name: "Rolex Datejust",
     imagem: require("@/assets/images/r3.avif"),
   },
-    {
+  {
     id: "4",
-    nome: "qualquer",
+    name: "Rolex Day-Date",
     imagem: require("@/assets/images/r4.avif"),
   },
-    {
+  {
     id: "5",
-    nome: "qualquer",
+    name: "Rolex Yacht-Master II",
     imagem: require("@/assets/images/r5.avif"),
   },
-    {
+  {
     id: "6",
-    nome: "qualquer",
+    name: "Rolex Daytona",
     imagem: require("@/assets/images/r6.avif"),
   },
-    {
+  {
     id: "7",
-    nome: "qualquer",
+    name: "Rolex Submariner",
     imagem: require("@/assets/images/r7.avif"),
   },
-    {
+  {
     id: "8",
-    nome: "qualquer",
+    name: "Rolex Explorer II",
     imagem: require("@/assets/images/r8.avif"),
   },
-    {
+  {
     id: "9",
-    nome: "qualquer",
+    name: "Rolex Milgauss",
     imagem: require("@/assets/images/r9.avif"),
   },
-    {
+  {
     id: "10",
-    nome: "qualquer",
+    name: "Rolex GMT-Master",
     imagem: require("@/assets/images/r10.avif"),
   },
+];
+
+export default data;

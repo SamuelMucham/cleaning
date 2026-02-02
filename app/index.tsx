@@ -1,7 +1,6 @@
 import { Header } from "@/components/header";
 import { router } from "expo-router";
 import {
-  Image,
   ScrollView,
   StyleSheet,
   Text,
@@ -15,17 +14,26 @@ export default function HomePage() {
     router.push("/list");
   };
 
+  const visit2 = () => {
+    router.push("/list2");
+  };
+
   return (
     <SafeAreaView style={s.wrap}>
       <View style={s.body}>
         <Text style={s.title}>relógios</Text>
         <Text style={s.paragraph}>loja de relógios</Text>
       </View>
+      <Header image={require("@/assets/images/logo.png")} />
       <TouchableOpacity style={s.btn} onPress={visit}>
         <Text style={s.btnText}>comprar</Text>
       </TouchableOpacity>
-      <Header image={require("@/assets/images/logo.png")} />
+
       <Header image={require("@/assets/images/logo00.png")} />
+      <TouchableOpacity style={s.btn} onPress={visit2}>
+        <Text style={s.btnText}>comprar</Text>
+      </TouchableOpacity>
+
       <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
         <view style={s.body2}></view>
       </ScrollView>
@@ -80,7 +88,3 @@ const s = StyleSheet.create({
     fontSize: 22,
   },
 });
-
-<View style={s.body2}>
-  <Image source={require("../assets/images/2.webp")} />
-</View>;
